@@ -6,6 +6,7 @@ import seaborn as sns
 df = pd.read_csv(r'C:\Users\indur\OneDrive\Desktop\power bi projects\Public_Transport_Delay\ETL\-Smart-Traffic-Accident-Risk-Prediction-System-Using-Machine-Learning\DATA\cleaned_smart_accident.csv')
 df
 
+
 # STEP 1 BASIC  EDA TO UNDERSTAND THE DATA
 
 print('statical summery')
@@ -20,6 +21,9 @@ print(df.shape)
 print('columns')
 print(df.columns)
 
+
+
+
 # STEP 2 CHECK DUPLICATES
 
 print('Check Duplicates')
@@ -28,10 +32,12 @@ print(df.duplicated().sum())
 print('Removing Duplicates')
 print(df.drop_duplicates(df).to_string())
 
+
 # STEP 3 CHECK MISSING VALUES
 
 print('Checking messing values')
 print(df.isnull().sum())
+
 
 # STEP 4
 print('Checking Imbalance')
@@ -48,7 +54,6 @@ categorical = df.groupby(['WEATHER_CONDITION','TRAFFIC_DENSITY','ROAD_CONDITION'
 })
 
 print(categorical.head().to_string())
-
 
 # STEP 6 UNDERSTANDING NUMERICAL DATA
 
@@ -73,6 +78,9 @@ plt.ylabel('SPEED_LIMIT')
 plt.tight_layout()
 
 plt.show()
+
+
+
 # STEP 8
 print('Checking correlation between numerical features')
 corr = df.corr(numeric_only=True)
@@ -100,6 +108,7 @@ sns.boxenplot(df['ACCIDENT_OCCURRENCE'])
 plt.title('checking outliers of data')
 plt.tight_layout()
 plt.show()
+
 
 
 # STEP 11 RELATION COMPLETE TABLE
