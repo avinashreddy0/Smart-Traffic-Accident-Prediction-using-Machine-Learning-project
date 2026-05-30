@@ -199,35 +199,4 @@ plt.show()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#   preprocessing using COLUMN TRANSFORM
-
-preprocessing = ColumnTransformer([
-
-    ('num_col',num_pipeline,num),
-    ('cat_col',cat_pipeline,cat)
-])
-
-
-
 x = preprocessing.fit_transform(x)
