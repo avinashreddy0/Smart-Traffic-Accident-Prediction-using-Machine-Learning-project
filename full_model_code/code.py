@@ -377,36 +377,3 @@ xgboost = joblib.dump(xg_model,'xgboost.pkl')
 
 
 joblib.dump(preprocessing,'preprocessing.pkl')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-joblib.dump(preprocessing,'preprocessing.pkl')
-
-
