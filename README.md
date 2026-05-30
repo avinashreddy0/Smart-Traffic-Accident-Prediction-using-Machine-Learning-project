@@ -1,0 +1,1 @@
+# Smart-Traffic-Accident-Prediction-using-Machine-Learning-project
