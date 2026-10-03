@@ -365,7 +365,7 @@ Python | Pandas | NumPy | Scikit-learn | XGBoost | SQL | MySQL | Power BI | Stre
     st.markdown(
     "[GitHub](https://github.com/avinashreddy0/indurireddy)")
     st.markdown(
-    "[LinkedIn](https://www.linkedin.com/in/avinash-reddy-induri-4662b832a)")
+    "[LinkedIn](https://www.linkedin.com/in/avinash-reddy-induri-data-science/)")
     st.markdown(
     "[Project Repository](https://github.com/avinashreddy0/Public_Transport_Delay)"
 
