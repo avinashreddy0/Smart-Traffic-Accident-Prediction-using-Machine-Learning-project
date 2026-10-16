@@ -8,7 +8,7 @@ import plotly.express as px
 st.set_page_config(page_icon='',page_title='smart traffic accident prediction',layout='centered')
 
 st.title(':rainbow[Smart Traffic Accident prediction]')
-#loading data ''
+#loading data 
 
 try:
     logistic = joblib.load('logistic_regression.pkl')
