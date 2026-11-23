@@ -9,7 +9,7 @@ try:
 
     host = 'localhost'
     user = 'root'
-    password = quote_plus('yorr password')
+    password = quote_plus('your password')
     database = 'public'
 
     create = create_engine(f'mysql+pymysql://{user}:{password}@{host}/{database}')
