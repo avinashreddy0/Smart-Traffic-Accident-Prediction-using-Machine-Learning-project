@@ -20,4 +20,4 @@ except Exception as e:
     print(e)
 
 finally:
-    print("Successfully completed LOADED IN SQL WORKBENCH")                           
+    print("Successfully completed LOADED IN SQL WORkBENCH")                           
